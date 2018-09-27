@@ -1,0 +1,21 @@
+{
+    "name": "Weather",
+    "short_name": "CCWeather",
+    "start_url": "/index.html?hs=true",
+    "icons": [
+        {
+            "src": "/images/icons/icon-128.png",
+            "size": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/icons/icon-144.png",
+            "size": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "background_color": "#3e4eb8",
+    "theme_color": "#2f3ba2",
+    "display": "standalone",
+    "orientation": "portrait"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "1-22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cache": "gulp",
+    "serve": "http-server -p 9000",
+    "cacheAndServe": "npm run cache && npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "idb": "^2.1.3",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "http-server": "^0.11.1",
+    "sw-precache": "^5.2.1"
+  }
+}
