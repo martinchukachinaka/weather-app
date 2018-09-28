@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["scripts/idb.js","a66942528a8af114e8a0ae4b517ab0be"],["scripts/store.js","d6d19931fe6e7e4460eced6ca5a49f23"],["styles/ud811.css","f6c2abe8994ebab91e20a4f046422b15"]];
+var precacheConfig = [["images/clear.png","e17de36d2c2ddf7b068892fa4678cd31"],["images/cloudy-scattered-showers.png","855f638a52b7fbc1ec2a3d596fedbd28"],["images/cloudy.png","6b2148e05e5fe4bf2a218438afcb6d3c"],["images/cloudy_s_sunny.png","827577d4371bd0c83789fac7a2fe1546"],["images/fog.png","44f56cff88530b5e3315890d6c209ac2"],["images/icons/apple-120.png","57f3280ad7c3786e1826c9dd870e9e5f"],["images/icons/apple-152.png","d32edffe7f7060235df300c77d9fd06f"],["images/icons/apple-167.png","232f56af4ef6b558c3a713305ccefbb0"],["images/icons/apple-180.png","7338f2fc7e04b2a749f628abddc1f2ac"],["images/icons/apple-60.png","9948a10280c0b559fc37cc226aa2c0c4"],["images/icons/apple-76.png","943228f9074ee8790c4d5e0a18d64aae"],["images/icons/icon-128x128.png","1a090925da1967384dee5b00c9ea901e"],["images/icons/icon-144x144.png","edf21aca46bdd34e8e129e7c24642a0b"],["images/icons/icon-152x152.png","cec1ef3b55e16ad130b61a78a4c98c17"],["images/icons/icon-192x192.png","767c82dd235bd543cb69a4559ada7284"],["images/icons/icon-256x256.png","827577d4371bd0c83789fac7a2fe1546"],["images/icons/icon-384x384.png","8459780986fa06ddfab0bf231375af30"],["images/icons/icon-48x48.png","9607053b9c673618b86c4040f6053316"],["images/icons/icon-512x512.png","162dc9e0d014b32900ded741698493a1"],["images/icons/icon-96x96.png","5ad52ceba80b7fe1b977ac96e458e79f"],["images/partly-cloudy.png","a2e10546a6f7000e1b7d5846ba492f9b"],["images/rain.png","5a2600b1199d1c95da554a5f97861c04"],["images/scattered-showers.png","ec178dbbcd45abb9db4be616801df3b0"],["images/sleet.png","15ee1fe8d87a5b1ca604eb56729f3f08"],["images/snow.png","6f9fa355f32b353a18a1dd3f89ac3fd7"],["images/thunderstorm.png","c4df123a44c17a1b5d1e8b33b268ea5c"],["images/wind.png","c1136285b55a50c206f0a96f64080767"],["index.html","d237ff7f3b9b710d5d875b17048a4f60"],["scripts/app.js","f5991ccd9b35089c73080b947aef9a6a"],["scripts/idb.js","a66942528a8af114e8a0ae4b517ab0be"],["scripts/store.js","d6d19931fe6e7e4460eced6ca5a49f23"],["scripts/store.service.js","db20a37b2cc85279fd7ca90fde6d0d9a"],["styles/ud811.css","f6c2abe8994ebab91e20a4f046422b15"]];
 var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
 
 
@@ -285,7 +285,7 @@ self.addEventListener('fetch', function(event) {
 
 // Runtime cache configuration, using the sw-toolbox library.
 
-toolbox.router.get(/^https:\/\/publicdata\-weather\.firebaseio\.com\//, toolbox.cacheFirst, {"debug":true,"cache":{"name":"weatherapp-app-data-v4.3"}});
+toolbox.router.get(/^https:\/\/publicdata\-weather\.firebaseio\.com\//, toolbox.cacheFirst, {"debug":true,"cache":{"name":"weatherapp-app-data-v5"}});
 
 
 

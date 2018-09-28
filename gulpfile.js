@@ -7,9 +7,11 @@ gulp.task('default', function (callback) {
 
     swPrecache.write('sw.js', {
         staticFileGlobs: [
-            `styles/ud811.css`,
-            `scripts/idb.js`,
-            `scripts/store.js`
+            '{styles,scripts,images}/**/*.{js,html,css,png,jpg,gif}',
+            'index.html'
+            // `styles/ud811.css`,
+            // `scripts/idb.js`,
+            // `scripts/store.js`
         ],
         // stripPrefix: rootDir,
         runtimeCaching: [{
@@ -18,7 +20,7 @@ gulp.task('default', function (callback) {
             options: {
                 debug: true,
                 cache: {
-                    name: 'weatherapp-app-data-v4.3'
+                    name: 'weatherapp-app-data-v5'
                 }
             }
         }]
