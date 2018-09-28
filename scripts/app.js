@@ -230,8 +230,7 @@
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function (event) {
       navigator.serviceWorker
-        .register('/sw.js')
-        // .register('/service-worker.js')
+        .register('./sw.js')
         .catch(err =>
           console.error('ServiceWorker registration failed: ', err)
         );
